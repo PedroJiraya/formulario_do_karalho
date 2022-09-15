@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: helvetica, arial;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.header_titulo{
+    margin-left:10px;
+    color: rgb(46, 46, 99);
+}
+.heade_subtitulo{
+   margin-left: 10px;
+   color:rgb(65, 65, 168);
+}
+.formulario form{
+    display: flex;
+    flex-direction: row;
+}
+.lab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
